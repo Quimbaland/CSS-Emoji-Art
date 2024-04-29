@@ -15,7 +15,20 @@ body {
 .emoji {
     --emoji-size: 200px;
     margin: 1rem;
-    background-color: red;
+    /* background-color: red; */
     width: var(--emoji-size);
     height: var(--emoji-size);
+}
+
+.head {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: #FFC83D;
+    overflow: hidden;
+    position: relative;
+}
+
+.eyes {
+    position: aboslute;
 }
